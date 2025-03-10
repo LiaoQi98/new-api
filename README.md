@@ -151,6 +151,16 @@ cd new-api
 docker-compose up -d
 ```
 
+ps:需要使用相关国内镜像进行加速
+```
+"registry-mirrors": [
+        "https://docker.m.daocloud.io",
+        "https://huecker.io",
+        "https://dockerhub.timeweb.cloud",
+        "https://noohub.ru"
+    ]
+```
+
 #### 更新版本
 ```shell
 docker-compose pull
