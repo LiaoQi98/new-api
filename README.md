@@ -34,7 +34,7 @@
 ## 📝 项目说明
 
 > [!NOTE]  
-> 本项目为开源项目，在[One API](https://github.com/songquanpeng/one-api)的基础上进行二次开发
+> 本项目为开源项目，在[New API](https://github.com/Calcium-Ion/new-api)的基础上进行二次开发
 
 > [!IMPORTANT]  
 > - 使用者必须在遵循 OpenAI 的[使用条款](https://openai.com/policies/terms-of-use)以及**法律法规**的情况下使用，不得用于非法用途。
@@ -94,7 +94,7 @@
 
 您可以在渠道中添加自定义模型gpt-4-gizmo-*，此模型并非OpenAI官方模型，而是第三方模型，使用官方key无法调用。
 
-## 比原版One API多出的配置
+## 比原版ONE API多出的配置
 - `GENERATE_DEFAULT_TOKEN`：是否为新注册用户生成初始令牌，默认为 `false`。
 - `STREAMING_TIMEOUT`：设置流式一次回复的超时时间，默认为 60 秒。
 - `DIFY_DEBUG`：设置 Dify 渠道是否输出工作流和节点信息到客户端，默认为 `true`。
